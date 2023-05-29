@@ -1,5 +1,6 @@
 function diffFinder(targetArray:Array<string>, compareArray:Array<string>, originalArray:Array<string>){
   // union type(합집합 타입)
+  // 유니온 타입을 활용하여 작성하면 여러 타입으로 작성가능한 유연성이 생긴다.
   let duplicatedElement:null|string = null;
   let replaceElement:null|string = null;
 
